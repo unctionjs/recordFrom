@@ -1,17 +1,29 @@
-# @unction/tempLate
+# @unction/recordFrom
+
 
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> mixed -> mixed
+> KeyChain -> any -> IterableType
 
-An example function.
+Given a keychain and a value it creates an object that has keys based on the keychain.
 
 ``` javascript
-tempLate(1) // 1
+recordFrom(["key", "subkey"])("value")
 ```
 
-[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/tempLate.svg?maxAge=2592000&style=flat-square
+Which returns:
+
+``` javascript
+{
+  key: {
+    subkey: "value"
+  }
+}
+```
+
+[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/recordFrom.svg?maxAge=2592000&style=flat-square
+
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
-[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/tempLate.svg?maxAge=2592000&style=flat-square
+[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/recordFrom.svg?maxAge=2592000&style=flat-square

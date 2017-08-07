@@ -1,12 +1,12 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import tempLate from "./"
+import recordFrom from "./"
 
 test(({same, end}) => {
   same(
-    tempLate(true),
-    false
+    recordFrom(["key", "subkey"])("value"),
+    {key: {subkey: "value"}}
   )
 
   end()
