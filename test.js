@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import prepend from "./source"
+import recordFrom from "./source"
 
 test(({same, end}) => {
   same(
