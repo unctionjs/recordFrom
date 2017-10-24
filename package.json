@@ -50,7 +50,7 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/attach": "3.3.0",
+    "@unction/attach": "3.5.0",
     "@unction/reducevalues": "2.5.0",
     "ramda": "0.24.1"
   },
