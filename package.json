@@ -52,8 +52,8 @@
     "tap": "11.0.0"
   },
   "dependencies": {
-    "@unction/attach": "4.0.0",
-    "@unction/reducevalues": "3.0.0",
+    "@unction/attach": "5.0.0",
+    "@unction/reducevalues": "4.0.0",
     "ramda": "0.24.1"
   },
   "nyc": {
