@@ -1,11 +1,10 @@
 # @unction/recordFrom
 
-
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> KeyChain => any => FunctorType
+> KeyChain => ValueType => FunctorType
 
 Given a keychain and a value it creates an object that has keys based on the keychain.
 
@@ -24,6 +23,5 @@ Which returns:
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/recordFrom.svg?maxAge=2592000&style=flat-square
-
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
 [BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/recordFrom.svg?maxAge=2592000&style=flat-square
