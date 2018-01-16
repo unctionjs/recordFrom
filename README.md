@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> KeyChain -> any -> FunctorType
+> KeyChain => any => FunctorType
 
 Given a keychain and a value it creates an object that has keys based on the keychain.
 
