@@ -1,3 +1,4 @@
+**NOTE: This library has been deprecated in favor of [unction/objectFrom](https://github.com/unctionjs/objectFrom)**
 # @unction/recordFrom
 
 ![Tests][BADGE_TRAVIS]
